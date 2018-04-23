@@ -1,0 +1,10 @@
+{
+  "title": "trigger5",
+  "options": {
+    "env": {
+      "mode": "develop"
+    }
+  },
+  "input": "<!--jdists export=\"#foo-production\"-->\nproduction\n<!--/jdists-->\n<!--jdists export=\"#foo-develop\"-->\ndevelop\n<!--/jdists-->\n<!--jdists import=\"#foo-production\" trigger=\":mode === 'production'\" /-->\n<!--jdists import=\"#foo-develop\" trigger=\":mode === 'develop'\" /-->\n",
+  "output": "develop\n"
+}

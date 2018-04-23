@@ -1,0 +1,22 @@
+{
+  "name": "jdists-test",
+  "version": "0.0.1",
+  "description": "Test cases for jdists.",
+  "scripts": {
+    "build": "ts-node ./scripts/build --project ./tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zswang/jdists-test.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/es6-promise": "^0.0.33",
+    "@types/glob": "^5.0.35",
+    "@types/js-yaml": "^3.11.1",
+    "@types/node": "^8.0.25",
+    "glob": "^7.1.2",
+    "js-yaml": "^3.11.0",
+    "ts-node": "^6.0.0"
+  }
+}

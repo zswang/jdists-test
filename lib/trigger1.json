@@ -1,0 +1,10 @@
+{
+  "title": "trigger1",
+  "options": {
+    "env": {
+      "mode": "develop"
+    }
+  },
+  "input": "<!--quoted trigger=\":mode === 'develop'\"-->\ndevelop\n<!--/quoted-->\n<!--quoted trigger=\":mode === 'production'\"-->\nproduction\n<!--/quoted-->\n",
+  "output": "\"develop\"\nproduction\n"
+}
